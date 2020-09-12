@@ -7,7 +7,7 @@ body {
 }
 
 .wrapper {
-  max-width: 1200px;
+  max-width: 1200px
   margin: auto;
 }
 
@@ -44,7 +44,6 @@ hr {
 }
 
 .img-placeholder {
-  background-image: url("http://placehold.it/200x100/CC99CC/ffffff&text=Feature");
   background-size: cover;
   min-height: 100px;
   min-width: 100px;
@@ -83,10 +82,10 @@ hr {
   background: rgba(51, 153, 204, 0.6);
 }
 
-.Demo.Holly {
+.Demo.FCoder {
   background: rgba(102, 51, 255, 0.1);
 }
-.Demo.Holly:hover {
+.Demo.FCoder:hover {
   background: rgba(102, 51, 255, 0.25);
 }
 
@@ -204,7 +203,7 @@ hr {
   flex: 0 0 calc(33.3333% - 1em);
 }
 
-.Grid--holly-grail .aside, .Grid--holly-grail .main {
+.Grid--FCoder-grail .aside, .Grid--FCoder-grail .main {
   flex: 1 100%;
 }
 
@@ -222,7 +221,7 @@ hr {
     flex: 0 0 calc(16.6666% - 1em);
   }
 
-  .Grid--holly-grail .aside {
+  .Grid--FCoder-grail .aside {
     flex: 1 calc(25% - 1em);
   }
 
@@ -252,19 +251,19 @@ hr {
     flex: 1;
   }
 
-  .Grid--holly-grail .main {
+  .Grid--FCoder-grail .main {
     flex: 2;
   }
-  .Grid--holly-grail .aside {
+  .Grid--FCoder-grail .aside {
     flex: 1;
   }
-  .Grid--holly-grail .aside-1 {
+  .Grid--FCoder-grail .aside-1 {
     order: 1;
   }
-  .Grid--holly-grail .main {
+  .Grid--FCoder-grail .main {
     order: 2;
   }
-  .Grid--holly-grail .aside-2 {
+  .Grid--FCoder-grail .aside-2 {
     order: 3;
   }
 
